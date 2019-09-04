@@ -15,8 +15,9 @@
     "form",
     "input"
   ],
-  "author": "Paul Popov <justredpaul@ya.ru>",
+  "author": "Paul Popov <justredpaul@yandex.ru>",
   "license": "MIT",
+  "git": "https://github.com/justredpaul/react-input-checkbox",
   "peerDependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
