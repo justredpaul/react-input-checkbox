@@ -1,5 +1,5 @@
 {
-  "name": "react-checkbox-input",
+  "name": "react-input-checkbox",
   "version": "0.1.0",
   "description": "Simple and stylable checkbox UI component for React apps",
   "scripts": {
