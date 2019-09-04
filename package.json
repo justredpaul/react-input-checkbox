@@ -34,7 +34,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "jest": "^24.9.0",
     "jest-transform-css": "^2.0.0",
-    "nps": "^5.9.8",
+    "nps": "^5.7.1",
     "nps-utils": "^1.7.0",
     "parcel-bundler": "^1.12.3",
     "prismjs": "^1.17.1",
