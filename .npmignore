@@ -1,0 +1,5 @@
+.cache/
+__tests__/
+demo/
+dist/
+images/

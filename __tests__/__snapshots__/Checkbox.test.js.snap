@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render checkbox 1`] = `
+<label
+  class=""
+>
+  <input
+    class=""
+    type="checkbox"
+  />
+  <span
+    class=""
+  />
+</label>
+`;
+
+exports[`Checkbox should render checkbox image if theme provided 1`] = `
+<label
+  class="Checkbox_themed test-checkbox "
+>
+  <input
+    class="Checkbox__input_themed test-checkbox__input "
+    type="checkbox"
+  />
+  <span
+    class="Checkbox__image_themed test-checkbox__image "
+  />
+  <span
+    class="test-checkbox__label "
+  >
+    Label
+  </span>
+</label>
+`;
+
+exports[`Checkbox should render checkbox label from children 1`] = `
+<label
+  class=""
+>
+  <input
+    class=""
+    type="checkbox"
+  />
+  <span
+    class=""
+  >
+    Some text for label
+  </span>
+</label>
+`;
+
+exports[`Checkbox should render class names if theme provided 1`] = `
+<label
+  class="Checkbox_themed test-checkbox "
+>
+  <input
+    class="Checkbox__input_themed test-checkbox__input "
+    type="checkbox"
+  />
+  <span
+    class="Checkbox__image_themed test-checkbox__image "
+  />
+  <span
+    class="test-checkbox__label "
+  >
+    Label
+  </span>
+</label>
+`;

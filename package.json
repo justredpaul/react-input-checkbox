@@ -1,0 +1,59 @@
+{
+  "name": "react-checkbox-input",
+  "version": "0.1.0",
+  "description": "Simple and stylable checkbox UI component for React apps",
+  "scripts": {
+    "demo": "parcel demo/index.html",
+    "build": "nps build",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-checkbox",
+    "checkbox",
+    "form",
+    "input"
+  ],
+  "author": "Paul Popov <justredpaul@ya.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.1.3",
+    "autoprefixer": "^9.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "jest": "^24.9.0",
+    "jest-transform-css": "^2.0.0",
+    "nps": "^5.9.8",
+    "nps-utils": "^1.7.0",
+    "parcel-bundler": "^1.12.3",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-uglify": "^6.0.3",
+    "size-limit": "^2.1.1",
+    "uglify-es": "^3.3.9"
+  },
+  "types": "react-input-checkbox.d.ts",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest",
+      ".+\\.(css)$": "jest-transform-css"
+    }
+  }
+}
