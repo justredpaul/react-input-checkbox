@@ -3,7 +3,7 @@ import Prism from 'prismjs';
 import ReactDOM from 'react-dom';
 import './prism.css';
 
-import { Checkbox } from '../src/Checkbox';
+import { Checkbox } from '../lib/react-input-checkbox';
 
 const App = () => (
   <main>

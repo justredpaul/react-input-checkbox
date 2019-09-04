@@ -6,7 +6,7 @@ import { minify } from 'uglify-es';
 import autoprefixer from 'autoprefixer';
 
 const name = 'Checkbox';
-const path = 'dist/react-input-checkbox';
+const path = 'lib/react-input-checkbox';
 const globals = {
   'prop-types': 'PropTypes',
   'react-dom': 'ReactDOM',
@@ -67,7 +67,7 @@ export default [
     input: 'src/Checkbox.jsx',
     output: {
       name: name,
-      file: 'lib/react-input-checkbox.min.js',
+      file: path + '.min.js',
       format: 'umd',
     },
     globals: globals,

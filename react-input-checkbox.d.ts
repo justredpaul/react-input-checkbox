@@ -9,4 +9,4 @@ export interface CheckboxProps {
   value: boolean;
 }
 
-export default class Checkbox extends React.Component<CheckboxProps, any> {}
+export class Checkbox extends React.Component<CheckboxProps, any> {}
