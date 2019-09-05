@@ -10,7 +10,7 @@ It has no additional styles by default, but it easy to stylize for your needs.
 
 Check it live on [CodePen](https://codepen.io/justredpaul/full/mdbqOor)
 
-To run demo locally install dev dependencies by `npm install` and use `npm demo`.
+To run demo locally install dev dependencies by `npm install` and use `npm run demo`.
 
 Parcel start demo on `http://localhost:1234/`.
 
@@ -20,7 +20,8 @@ Parcel start demo on `http://localhost:1234/`.
 2. [Usage](#usage)
     1. [Example](#example)
     2. [Props](#props)
-    2. [Style template](#style_template)
+    2. [Style template](#style-template)
+3. [License](#license)
 
 ## Installation
 
