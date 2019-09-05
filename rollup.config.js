@@ -32,7 +32,6 @@ const commonPlugins = [
     plugins: [autoprefixer],
     extract: true,
     minimize: true,
-    sourceMap: true,
   })
 ];
 
