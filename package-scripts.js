@@ -10,10 +10,11 @@ module.exports = {
       default: series(
         rimraf('dist'),
         rimraf('lib'),
-        concurrent.nps('build.rollup', 'build.test')
+        concurrent.nps('build.rollup', 'build.test', 'build.size')
       ),
       rollup: 'rollup --config',
-      test: 'npm test'
+      test: 'npm test',
+      size: 'npm size',
     }
   }
 };
