@@ -21,8 +21,8 @@
   "git": "https://github.com/justredpaul/react-input-checkbox",
   "main": "lib/react-input-checkbox.js",
   "peerDependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
