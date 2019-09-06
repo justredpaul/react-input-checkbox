@@ -34,6 +34,9 @@ Parcel start demo on `http://localhost:1234/`.
 ```jsx
 import { Checkbox } from 'react-input-checkbox';
 
+// Import for using theme - contains base styles which will hide native checkbox and etc.
+import "../node_modules/react-input-checkbox/lib/react-input-checkbox.min.css";
+
 <Checkbox>Option #1</Checkbox>
 <Checkbox disabled>Option #2</Checkbox>
 <Checkbox value={true}>Option #3</Checkbox>
