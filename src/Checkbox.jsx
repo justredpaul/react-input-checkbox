@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 
 import { classConcat } from './classConcat';
 
-// import './style.css';
+import './style.css';
 
 export const Checkbox = props => (
   <label className={classConcat({
