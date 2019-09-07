@@ -1,6 +1,11 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.1.3
+
+* Add size-limit
+* Change peerDependencies `react` and `react-dom` versions to `16.0.0` or above 
+
 ## 0.1.2
 
 * Fix styles for iOS and IE
