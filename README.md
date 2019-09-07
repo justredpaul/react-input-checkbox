@@ -57,6 +57,8 @@ __Note:__ if value is `true` indeterminate state will be ignored
 
 #### `modification` : `String`
 
+`Optional`, default value is `null`
+
 CSS class for modification. Good to change color of checkbox, for example.
 
 __Note:__ check [material-checkbox](demo/material-theme.css) for example of changing
