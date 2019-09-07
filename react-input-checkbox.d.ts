@@ -4,6 +4,7 @@ export interface CheckboxProps {
   children: React.ReactNode;
   disabled?: boolean;
   indeterminate?: boolean;
+  modification?: string;
   onChange: (event: React.SyntheticEvent) => void;
   theme?: string;
   value: boolean;

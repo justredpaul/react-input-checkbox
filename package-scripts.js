@@ -8,7 +8,6 @@ module.exports = {
     build: {
       description: 'cleanup and build',
       default: series(
-        rimraf('dist'),
         rimraf('lib'),
         concurrent.nps('build.rollup', 'build.test')
       ),

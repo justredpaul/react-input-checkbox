@@ -6,20 +6,22 @@
 `Checkbox` is React component for boolean values. It accept a single boolean value. 
 It has no additional styles by default, but it easy to stylize for your needs.
 
-## Demo
+## Demos
 
-Check it live on [CodePen](https://codepen.io/justredpaul/full/mdbqOor)
+Check it live on CodePen
+* [Fancy theme](https://codepen.io/justredpaul/full/OJLQVBy)
+* [Bootstrap theme](https://codepen.io/justredpaul/full/ExYQVVO)
+* [Material theme](https://codepen.io/justredpaul/full/bGbLVyM)
 
 To run demo locally install dev dependencies by `npm install` and use `npm run demo`.
 
-Parcel start demo on `http://localhost:1234/`.
+Parcel start demo on `http://localhost:1234/` and select one of three themes.
 
 ## Table of Contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-    1. [Example](#example)
-    2. [Props](#props)
+    1. [Props](#props)
     2. [Style template](#style-template)
 3. [License](#license)
 
@@ -28,20 +30,6 @@ Parcel start demo on `http://localhost:1234/`.
 `npm install react-input-checkbox --save`
 
 ## Usage
-
-### Example
-
-```jsx
-import { Checkbox } from 'react-input-checkbox';
-
-// Import for using theme - contains base styles which will hide native checkbox and etc.
-import "../node_modules/react-input-checkbox/lib/react-input-checkbox.min.css";
-
-<Checkbox>Option #1</Checkbox>
-<Checkbox disabled>Option #2</Checkbox>
-<Checkbox value={true}>Option #3</Checkbox>
-<Checkbox theme="fancy">Fancy Option #4</Checkbox>
-```
 
 ### Props
 
@@ -64,6 +52,15 @@ Flag for making checkbox disabled.
 Visual only state of checkbox which is still either checked or unchecked as a state.
 If you want tot use it, you must create visual styles for that state, 
 because it is not provided by default.
+
+__Note:__ if value is `true` indeterminate state will be ignored
+
+#### `modification` : `String`
+
+CSS class for modification. Good to change color of checkbox, for example.
+
+__Note:__ check [material-checkbox](demo/material-theme.css) for example of changing
+ color without changing the `theme`
 
 
 #### `onChange` : `(event: SyntheticEvent) => void`
@@ -89,48 +86,51 @@ to your project, just replace `%your_style_prefix%` with prefix that you will pa
 
 ```
 .%your_style_prefix% {
-    // Common styles for the checkbox
-    // Most likely you will customize left padding here
+    /* Common styles for the checkbox */
+    /* Most likely you will customize left padding here */
 }
 .%your_style_prefix%__image {
-    // Default state of the checkbox image
-    // Right place to size, background-image of unchecked state
+    /* Default state of the checkbox image */
+    /* Right place to size, background-image of unchecked state */
 }
 .%your_style_prefix%__label {
-    // Label styles (font styles mostly)
+    /* Label styles (font styles mostly) */
 }
 
-// Some states of checkbox image
+/* Some states of checkbox image */
 .%your_style_prefix%__input:focus + .%your_style_prefix%__image {
-    // Focused and unchecked
+    /* Focused and unchecked */
 }
 .%your_style_prefix%__input:disabled + .%your_style_prefix%__image {
-    // Disabled and unchecked
+    /* Disabled and unchecked */
 }
 .%your_style_prefix%__input:checked + .%your_style_prefix%__image {
-    // Checked
+    /* Checked */
 }
 .%your_style_prefix%__input:checked:focus + .%your_style_prefix%__image {
-    // Focused and checked
+    /* Focused and checked */
 }
 .%your_style_prefix%__input:checked:disabled + .%your_style_prefix%__image {
-    // Disabled and checked
+    /* Disabled and checked */
 }
 
-// Additional indeterminate states
+/* Additional indeterminate states */
 .%your_style_prefix%__input_indeterminate + .%your_style_prefix%__image {
-    // Marks as indeterminate
+    /* Marks as indeterminate */
 }
 .%your_style_prefix%__input_indeterminate:focus + .%your_style_prefix%__image {
-    // Indeterminate and focused
+    /* Indeterminate and focused */
 }
 .%your_style_prefix%__input_indeterminate:disabled + .%your_style_prefix%__image {
-    // Indeterminate and disabled
+    /* Indeterminate and disabled */
 }
 
 ``` 
 
-Check out demo styles for examples of styles: [fancy-checkbox](demo/fancy-theme.css) and [bootstrap-checkbox](demo/bootstrap-theme.css)
+Check out demo styles for examples of styles:
+ [fancy-checkbox](demo/fancy-theme.css), 
+ [bootstrap-checkbox](demo/bootstrap-theme.css) and
+ [material-checkbox](demo/material-theme.css)
 
 ## License
 

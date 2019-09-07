@@ -5,12 +5,15 @@ exports[`Checkbox should render checkbox 1`] = `
   class=""
 >
   <input
+    checked=""
     class=""
     type="checkbox"
   />
   <span
     class=""
-  />
+  >
+    Test
+  </span>
 </label>
 `;
 
@@ -19,6 +22,7 @@ exports[`Checkbox should render checkbox image if theme provided 1`] = `
   class="Checkbox_themed test-checkbox "
 >
   <input
+    checked=""
     class="Checkbox__input_themed test-checkbox__input "
     type="checkbox"
   />
@@ -38,6 +42,7 @@ exports[`Checkbox should render checkbox label from children 1`] = `
   class=""
 >
   <input
+    checked=""
     class=""
     type="checkbox"
   />
@@ -54,6 +59,7 @@ exports[`Checkbox should render class names if theme provided 1`] = `
   class="Checkbox_themed test-checkbox "
 >
   <input
+    checked=""
     class="Checkbox__input_themed test-checkbox__input "
     type="checkbox"
   />
