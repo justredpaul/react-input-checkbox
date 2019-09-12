@@ -74,7 +74,7 @@
         "lib/react-input-checkbox.js",
         "lib/react-input-checkbox.min.css"
       ],
-      "limit": "200 ms",
+      "limit": "2kb",
       "webpack": false
     }
   ]
