@@ -71,7 +71,7 @@
   "size-limit": [
     {
       "path": [
-        "lib/react-input-checkbox.js",
+        "lib/react-input-checkbox.min.js",
         "lib/react-input-checkbox.min.css"
       ],
       "limit": "2kb",

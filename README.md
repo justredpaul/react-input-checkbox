@@ -1,10 +1,13 @@
 # react-input-checkbox
 
-<img src="images/checkbox.svg" align="right"
+<img src="https://stuff.paulshouse.kz/files/checkbox.svg" align="right"
      alt="Fancy checkbox with label Checked" width="342" height="164">
 
-`Checkbox` is React component for boolean values. It accept a single boolean value. 
-It has no additional styles by default, but it easy to stylize for your needs.
+`Checkbox` is React component for boolean values.
+
+* Tiny: __954 bytes__ minified and gzipped (by [Size Limit](https://github.com/ai/size-limit));
+* Easy customize: __themes__ and __modifications__ support;
+* __Indeterminate__ state support.
 
 ## Demos
 
