@@ -1,6 +1,12 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.1.5
+
+* Update styles
+* Remove lib from git
+* Update description
+
 ## 0.1.4
 
 * Add modification prop
