@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
 import { Checkbox } from '../src/Checkbox';
@@ -29,5 +29,18 @@ describe('Checkbox', () => {
     const { container } = render(<Checkbox theme="test-checkbox" value={true} onChange={() => {}}>Label</Checkbox>);
 
     expect(container.firstChild).toMatchSnapshot();
+  });
+
+  // Act
+  it('should call onChange prop on component click', () => {
+    const onChange = jest.fn();
+    const { container } = render(
+      <Checkbox onChange={onChange} value={false}>
+        Click me!
+      </Checkbox>
+    );
+    expect(onChange).not.toHaveBeenCalled();
+    fireEvent.click(container.firstChild);
+    expect(onChange).toHaveBeenCalled();
   });
 });
