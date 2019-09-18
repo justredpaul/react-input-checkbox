@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Checkbox } from '../src/Checkbox';
+import { Checkbox } from '../lib/react-input-checkbox.es';
 
 export const Playground = ({ theme }) => {
   const [all, setAll] = React.useState(1); // 0 for none, 1 for some, 2 for all
