@@ -56,7 +56,7 @@ Visual only state of checkbox which is still either checked or unchecked as a st
 If you want tot use it, you must create visual styles for that state, 
 because it is not provided by default.
 
-__Note:__ if value is `true` indeterminate state will be ignored
+__Note:__ if prop `value` is `true` indeterminate state will be ignored
 
 #### `modification` : `String`
 
