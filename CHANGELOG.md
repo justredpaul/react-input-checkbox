@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.1.6
+
+* Update README.md for installation process
+
 ## 0.1.5
 
 * Update styles
