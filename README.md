@@ -1,6 +1,6 @@
 # react-input-checkbox
 
-<img src="https://stuff.paulshouse.kz/files/checkbox.svg" align="right"
+<img src="https://paul-s.house/assets/checkbox.svg" align="right"
      alt="Fancy checkbox with label Checked" width="342" height="164">
 
 `Checkbox` is React component for boolean values.
@@ -31,6 +31,23 @@ Parcel start demo on `http://localhost:1234/` and select one of three themes.
 ## Installation
 
 `npm install react-input-checkbox --save`
+
+It is necessary to make sure you include component base styles
+
+`import 'react-input-checkbox/lib/react-input-checkbox.min.css';`
+
+And then use as any other React component
+
+```
+import { Checkbox } from 'react-input-checkbox';
+
+export const FancyCheckbox = props => (
+    <Checkbox theme="fancy-checkbox"
+        disabled={props.disabled}
+        value={props.value}
+        onChange={props.onChange}>
+);
+```
 
 ## Usage
 
