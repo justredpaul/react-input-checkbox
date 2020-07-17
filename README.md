@@ -5,7 +5,7 @@
 
 `Checkbox` is React component for boolean values.
 
-* Tiny: __954 bytes__ minified and gzipped (by [Size Limit](https://github.com/ai/size-limit));
+* Tiny: __957 bytes__ minified and gzipped (by [Size Limit](https://github.com/ai/size-limit));
 * Easy customize: __themes__ and __modifications__ support;
 * __Indeterminate__ state support.
 
