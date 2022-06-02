@@ -1,6 +1,6 @@
 {
   "name": "react-input-checkbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple and stylable checkbox UI component for React apps",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -31,8 +31,8 @@
   "homepage": "https://github.com/justredpaul/react-input-checkbox",
   "main": "lib/react-input-checkbox.js",
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.10.4",
